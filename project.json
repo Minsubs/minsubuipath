@@ -1,5 +1,6 @@
 {
   "name": "TEST",
+  "projectId": "4bb3df70-55b6-479c-b69a-9f26396d82e1",
   "description": "빈 프로세스",
   "main": "Main.xaml",
   "dependencies": {
@@ -45,7 +46,12 @@
     "processOptions": {
       "ignoredFiles": []
     },
-    "fileInfoCollection": [],
+    "fileInfoCollection": [
+      {
+        "templateType": "Generic",
+        "fileName": ".templates\\Main템플릿.xaml"
+      }
+    ],
     "modernBehavior": true
   },
   "expressionLanguage": "VisualBasic",
