@@ -1,0 +1,140 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="클라이언트_로그인" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1254,1255" sap2010:WorkflowViewState.IdRef="클라이언트_로그인_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.ComponentModel</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Python.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="클라이언트_로그인" sap:VirtualizedContainerService.HintSize="546,1190" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: i-oneNGS 로그인" sap:VirtualizedContainerService.HintSize="484,1079" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="044e237e-7802-4b91-9a02-4221fe1f6615" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="450,788" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into '아이디'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,218" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="044e237e-7802-4b91-9a02-4221fe1f6615" Text="ngsadmin" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="98, 120, 207, 21" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'Edit'" FullSelectorArgument="&lt;wnd ctrlid='1064' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='1064' /&gt;" Guid="d5a15c0e-b23c-427e-a20c-a29f03654bdd" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAANMAAAAZCAYAAACrdBsLAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAERSURBVHhe7djNDYQgEEDhbca7PXCxAVqgBUqgBMudVVH8zypONkbf4UsUR0++EP0URSEAriMmQEmKqaoqABmICVCyG1NZlgAOICZACTEBSrJjsr6Wuo68Hdat+ODELGaNC2k2ODNbH+9tWJ/mkv55q1ngZrJi6uLwtj9vAqq92OF4GVMbSFoz4kIQZ+K1rZimsU0RE+4uI6Y2iCGeaHzR1zFZP8bTmQRDTHgSlZjGCA7EZJyEflcjJjyJSkyznan/1hmiYGfCW2TEFF9svpmAuayYWn/7m9doZ4gJd5cd07btmPacCYSYcHfEBCghJkCJckzAexEToISYACXEBCj5GROAc4gJULKKCcA1xASoKOQLFtr9pdgDpKsAAAAASUVORK5CYII=" InformativeScreenshot="76a8e1576f719b4fa8445c8d8506cf67.png" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='i-onengs.exe' cls='#32770' title='i-oneNGS 로그인' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="41, 125, 45, 13" ElementType="Text" FriendlyName="'아이디'" FullSelectorArgument="&lt;wnd cls='Static' title='아이디' /&gt;" FuzzySelectorArgument="&lt;wnd cls='Static' title='아이디' check:text='아이디' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADEAAAARCAYAAAB0MEQqAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAC3SURBVEhL7ZTbDYMwDEW7TLbxMl7Fo3gUT5IN3IQ8gSC1okUG5eNI4JjkHhl4Oef07kwJK5yWQPbqfYKx1FFZSGHTCyS1VwhW9fZsALn2VfJ+u97AKYklFGO+D8E9K5brrUQMVmugJKIEaW0k0Uv2/FgiBimhE+2AvQRyC73QBTUl0Q7/QAJIJU/R7iTyu1zCGJ1E2vDm30Tisr9TIPb8RWLMWOKIUbAjpsR3PELiWqaEFR4g4fQNTpNajyTK7pEAAAAASUVORK5CYII=" SearchSteps="Selector, FuzzySelector, Image" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into '비밀번호'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,218" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="044e237e-7802-4b91-9a02-4221fe1f6615" Text="qwe123!@#" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="98, 153, 207, 21" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'Edit'" FullSelectorArgument="&lt;wnd ctrlid='1065' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='1065' /&gt;" Guid="00cd3588-a842-4a41-9e44-82a8ead3f4ca" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAANMAAAAZCAYAAACrdBsLAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAErSURBVHhe7djLlYMgFIDhaca9PbCxAVqgBUqgBMu988gYRfAB3jDmzL/4FsQbs+E/aD66rhMA1xEToOQZ0zAMACoQE6BkM6a+7wGcQEyAEmIClFTFZFwQb/Nr64M4M1/rjZMwjjIueZt87zn7e229TmYjRlzwYrPXgDbaxHQ2kILZ73UU6EpwZr4P0MD9YsqEMYlmgZupjmlrozd9zMvGt/p9oJHqmJYbe7lOYipRFNPWe5IVH5yY5HPgtRrF9LXBkxPkIQokd9JwMuFNVMcUb+Cdx7wd2UA27M/ybx7+XlVMey6dTNPs0WOa9dl7rZ0NFdDQLqbT7zG88+A9tYspc3L8WP7hUDwL3Id6TMB/RUyAEmIClBAToOQwJgBliAlQksQE4BpiAlR08glwCkCdIjogtAAAAABJRU5ErkJggg==" InformativeScreenshot="93a67b850ffdabf0a46a03a480b99a74.png" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='i-onengs.exe' cls='#32770' title='i-oneNGS 로그인' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target DesignTimeRectangle="41, 158, 45, 13" ElementType="Text" FriendlyName="'비밀번호'" FullSelectorArgument="&lt;wnd cls='Static' title='비밀번호' /&gt;" FuzzySelectorArgument="&lt;wnd cls='Static' title='비밀번호' check:text='비밀번호' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADEAAAARCAYAAAB0MEQqAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADPSURBVEhL7ZTRFYMgDEW7DNtkGVbJKIzCJGyQ2qOogUCJqIf2+HE/MI+QR4IvYwz9Oo+JUchMAHpyVl5b5wlhixlA8iFQ2ONstm/VLrF0nWkZQOgdWTE202+itTCF9rNmF5PgEbY8E/eaEAqKMK0S0UTpgFvHSTSdnL/Q1wkNKhOld2DJeSRIvp9gYkqc3dgMK0y62Ss7wTdWxqmCWFiBuvbA36lGVyeiVhgHhnVirpR97nNMfCtsRaNt59JOxJk/pm1HZWJUHhOj8AcmDL0BvTjeinZPKesAAAAASUVORK5CYII=" SearchSteps="Selector, FuzzySelector, Image" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'unchecked'" sap:VirtualizedContainerService.HintSize="388,157" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="044e237e-7802-4b91-9a02-4221fe1f6615" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="181, 237, 75, 23" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'unchecked'" FullSelectorArgument="&lt;wnd ctrlid='1' title='확인' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='1' title='확인' check:text='unchecked' /&gt;" Guid="b5f11a12-6500-49cc-99ac-0aa3c31cab1f" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAE8AAAAbCAYAAAA9K9JnAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAD5SURBVGhD7dTRDYMgEMbxLsO7wzCBM7AJkzAIgzDFlYuIkGJLvbSS8D38E0Ve/OXgoZQidC3gCcp467qizpp4y7KgDwFPEPAEAU8Q8ASNg2cceauLNU3WOzLlnpi2nkIIqeM7rztT7/11N+MZchmizJPVDbwIHJyp370lHZ8nxOMYKaQfZ0yG29drvFegY8+keFvG8cSVWBsqT2I+zq3JS+9T412689KR3dfnwuPJyfdcnbemiXfW3JPXm7bky6ObmhZvu+9aNSbvBO+OBp689p0HvK7e4DWnNPZn1IHxxg94goAnCHiCgCcIeIJO8VBfL3jo+4B3OUVPjQjBs1p0hmYAAAAASUVORK5CYII=" InformativeScreenshot="f95a33364221d5d5744a79a13e7f4850.png" ScopeSelectorArgument="&lt;wnd app='i-onengs.exe' cls='#32770' title='i-oneNGS 로그인' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" FilePath="C:\HUNESION\i-oneNGS\i-onengs.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAPWSURBVFhHtVdZSJRRGB0VtZh0RNJ2Ha1G29QyxIqK0ijbaIdWoqgI2igkxczyQSKsRMPIh7SUMsjqoYcKsqCoR3uQjAhMCH0IEqIVstt3/vnu7b8zd3KayQOHae453zl//zZXR4iIzGkV84mNxI/EK/iOda88BKCCBOIGLusjCgOxDh2+BB4NDRTgIhYRq4jPiD+JqmzymZdizL4mETtrvfWJ73adCD/mMI8cF0cHBhtvE18TfxG10PSKpyJpyzmr1JGS50esQ4fPd5aIvC4i8ou4UgcJlUQ1lH76uRi1s144F+4VEe45xtJAhB9zmEeOPZd4iit1kFADA/4XjtR8Y3DIpDzk8gHUcKUOEpphSFxTYQ4Jk8jlA2jmSh0kPIAhrvCQMSBcxi85LA/gPlfqIKEDhuH524wB4RK5fAAdXKmDhF4YoqcvNwaES+TyAfRypQ4SPsMQOWmhMSBp63kx9VKf4pS6Hr/LNWz2Jq9e/14krqvUNOTyAXzmSh0sakN2uksfygBFT/UrzZOw4rjSxh++pWmg1LhShxJ9hiQzLryx9OyWHyLr2lcV5lywR3lG77qs1q3H2TYPSo0rdSjRZwiMcOdbxdAza96KcQdvqjB32SPlSy35c5biCg5oGaDUuFIHCf0QozIK/AZjZ65Tw7gUMTlrRc6NAet79vUBEZO92vLJswRGz1ipZSCXtX6u1EFCJwzD8jZrg6Br2TEVPHp3g7XmLmtXa2P3t1hvO3mWsq5+8ctALvs7uVIHCW0w4EbyHU7ecVGVJawstdZw7eXajMZP9gLhOdvpl2G7Qdu4UgcJJTCMO9DqN5xSfE+F288QiuT6xMoX6t/w2+dB5LJewpU6SMiFwVPd5TeMxw0arndE2jy1jrPBoRqTt9dq8yByWc/lSj9EkNgDk+8djGuKdbx87Ov42cWLh4MV45ce1XxxhQel9g493joDyHASxrQT7X9K0uYKV1GxRfszL4l3vNQlozyLNU9a+RN5AOVcZQYZkonWKxkbCntIqEQOlyN3JFcFBpmwj7NuKlPgv9J2c1Zxxd9BRiexG0MTjtw2hgZLzHM58pxcMTjIXEAcwDA2EqbwwWjbgCCngKODBw2VIQBPAH5mTSWBCL98cpDDkf8MPJbWPnFawwcRm7vRWOZL+ODncuz/Aj92QSCKQu4iLKv5mxixaL+xVBJ6VvN3WX4H896Y8BBNYU0cSr8LdcZyrEsPsRFz3vH/A1wO9YcLfvfl1g2f9n0AfPB7x/4zKHwVEX8Ri8zabmuvj08uxvoqtg4dqMRNfMylkvjuZkuQcDh+A8PkRY+GYDWwAAAAAElFTkSuQmCC" InformativeScreenshot="a8ee81841da03d07061afa4391961580.png" Selector="&lt;wnd app='i-onengs.exe' cls='#32770' title='i-oneNGS 로그인' /&gt;" Title="i-oneNGS 로그인" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
