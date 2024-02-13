@@ -1,0 +1,161 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="_1__관리자_페이지_로그인" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1234,1378" sap2010:WorkflowViewState.IdRef="_1__관리자_페이지_로그인_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.ComponentModel</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Python.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>UiPath.Python</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="_1__관리자_페이지_로그인" sap:VirtualizedContainerService.HintSize="546,1313" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: i-oneNGS" sap:VirtualizedContainerService.HintSize="484,1202" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="5018d737-19e5-44aa-b617-6ca2b3a4b8c6" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="450,985" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into '아이디'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,218" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="5018d737-19e5-44aa-b617-6ca2b3a4b8c6" Text="ngsadmin" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://172.16.10.103:9000/" DesignTimeRectangle="178, 503, 308, 34" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'INPUT formID'" FullSelectorArgument="&lt;webctrl id='formID' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='formID' tag='INPUT' type='text' class='form-control' aaname='아이디' /&gt;" Guid="f3737fd0-c53c-4fa8-82a2-b5eaf19630f5" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAATgAAAAmCAYAAABQ1Ic1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGcSURBVHhe7daxiupQFIbR+/6P5aiNomgTVLBJJShK1EKInssekjDjaG8Oa8EP2SH1R/4lgEwJHJCtl4E7Ho9ps9mkxWKR5vO5mdlHLhoVrYpmvfIncKvVKk2n01SWZTqdTqmqKjOzj1w0KloVzYp2PfsVuKIo0nq9bi6A/oh2RcN+6gK32+2+f/cA+ioaFi1rdYFbLpdpv983F0D/RMOiZa0ucKPRKNV13VwA/RMNi5a1usANBoPmCaC/frZM4ICsCByQLYEDsiVwQLYEDsiWwAHZEjggWwIHZEvggGwJHJAtgQOyJXBAtgQOyJbAAdkSOCBbAgdkS+CAbAkckC2BA7IlcEC2BA7I1tvAPR6P5gLon2jYy8BNJpN0uVyaC6B/omHRslYXuO12+z2AvnruWBe42+2WxuNxOhwOzRuA/oh2RcOiZa0ucCE+GA6HqSzLdL/fm7cAnytaFc2Kdj3/oP0KXLher6koivT19ZVms1maz+dmZh+5aFS0KpoV7Xr2J3Ctuq7T+XxOVVWZmX3kolHRqnfeBg6g31L6DxbhshnUn94gAAAAAElFTkSuQmCC" InformativeScreenshot="d03308f2755ab53c7a3f50567f0263ec.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='i-oneNGS' /&gt;" SearchSteps="FuzzySelector, Image" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="178, 479, 33, 24" ElementType="Text" FriendlyName="'아이디'" FullSelectorArgument="&lt;webctrl tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='pdb-10' aaname='' check:innerText='아이디' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACUAAAAcCAYAAADm63ZmAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIRSURBVFhH7Zaxa9tAFMb7P2nSIDB49qYlhkA8tUsFHjJmaDYHiifhyUPoUlEI2jSlUOJCEAZxhoKMqQ0xGgoGGUEGgeHre2c5ceSzpSGYBPTBG969T/d+d7oT+oA3qAqqrN4J1CpFEidIHrOcFXShaRr0nsgGMm28SZoNsBZwP2vkt+AtsqG9UntfQKWBjabBpnWYX27pMZIK6lHAPtGfvPpJH0Ky5Rtt8lwYNkQh1CpEv8FmC86fEG6bG+q4/JkooFL4V1yv4fyHgPhuQef6V58q+6B0dH/TrvLOyuAVFEGN7PXEVzwxadxHg1dEu5XkodIBOlyr02pXlK98dDnXuorVP0PZI863VQCV3ndeNv7nwuJGbQ+LDEqrm2ietvDtbqsmzduTvyLUziuKXHzKQekXDvx7H9O/3hrqzEEkzXS++CwaHfjpa0LFHs65UaOPkNLoxpIg5vVUcaYiOGc8WQvOA6UzBy2uf3SpUhIq5RseFUDRSRI9c928XpPnS6tf4jam0g4UuWnMZI9RQ03uUhN2oDq8m5yeN55vq4y2DfswFCtF9MuB3SPztYeQLp6UAoqVzAZw2NtzMJhtzHkomnPky9e+HeEDf9+mRTt1QHug1MpDHZLa+46hjqwKqqwqqLKqoMqqgiqrCqqslFBxHGMymUAIgSAIjh47UOPxGMPhEPP5HMvlkn4v+BfjmJHgPypmtpp/TqOoAAAAAElFTkSuQmCC" SearchSteps="FuzzySelector, Image" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into '비밀번호'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,218" sap2010:WorkflowViewState.IdRef="NTypeInto_2" IsPassword="True" ScopeIdentifier="5018d737-19e5-44aa-b617-6ca2b3a4b8c6" Text="qwe123!@#" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://172.16.10.103:9000/" DesignTimeRectangle="178, 586, 308, 34" DesignTimeScaleFactor="1" ElementType="InputBoxPassword" FriendlyName="'INPUT formPASS'" FullSelectorArgument="&lt;webctrl id='formPASS' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='formPASS' tag='INPUT' type='password' class='form-control' aaname='비밀번호' /&gt;" Guid="c18fd813-dd33-4147-b6d7-74df515ee66a" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAATgAAAAmCAYAAABQ1Ic1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGcSURBVHhe7daxiupQFIbR+/6P5aiNomgTVLBJJShK1EKInssekjDjaG8Oa8EP2SH1R/4lgEwJHJCtl4E7Ho9ps9mkxWKR5vO5mdlHLhoVrYpmvfIncKvVKk2n01SWZTqdTqmqKjOzj1w0KloVzYp2PfsVuKIo0nq9bi6A/oh2RcN+6gK32+2+f/cA+ioaFi1rdYFbLpdpv983F0D/RMOiZa0ucKPRKNV13VwA/RMNi5a1usANBoPmCaC/frZM4ICsCByQLYEDsiVwQLYEDsiWwAHZEjggWwIHZEvggGwJHJAtgQOyJXBAtgQOyJbAAdkSOCBbAgdkS+CAbAkckC2BA7IlcEC2BA7I1tvAPR6P5gLon2jYy8BNJpN0uVyaC6B/omHRslYXuO12+z2AvnruWBe42+2WxuNxOhwOzRuA/oh2RcOiZa0ucCE+GA6HqSzLdL/fm7cAnytaFc2Kdj3/oP0KXLher6koivT19ZVms1maz+dmZh+5aFS0KpoV7Xr2J3Ctuq7T+XxOVVWZmX3kolHRqnfeBg6g31L6DxbhshnUn94gAAAAAElFTkSuQmCC" InformativeScreenshot="e2939d2e4047cd052c45e725fd6cb205.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='i-oneNGS' /&gt;" SearchSteps="FuzzySelector, Image" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="178, 562, 44, 24" ElementType="Text" FriendlyName="'비밀번호'" FullSelectorArgument="&lt;webctrl idx='2' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' tag='LABEL' class='pdb-10' aaname='' check:innerText='비밀번호' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADAAAAAcCAYAAAAnbDzKAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJeSURBVFhH7Zaxa9tAFMb7P2nSYPBkyJCpWSIw1HRoKVTQwZPp4s1DMBmEp0yhgzAUdwgqhA6FFIJrEJfJxsVDjIeAQOYggyDw9e50F59USXbTgtyiDx743T1Z7/feu7Of4R9XBVC2EgBRSEHDSHrSp9wPMHprwDBseAHfoVhcjzFO2/cF20nH6t/D9BCxdzBfuCrWhHMjdpPy+2yP7b/zWGS2NACCPg9+fLH0aw77lE5KxdZx1LRgHTdgbosVe0wyKXPAvTTACl8GDhxl71si1ji00dPWRzeUBwv9IYD070awt8a20NGS2gkgx1y/EMBC/zMfiXO0tyb1GwC1Fro8AVXVhKVGKCAYnbZhse42aiYax6zLbzo4/7bCZsBjZQDIsWgeoc79QoCUFQLwPSY1QidX7CxM4b7isRpANEavxuMtdIdX8nx5cF6a4rnXH1cyMNYTR0gd+LTx+lCQIW+1CyI6nSrM87pIJHuEmG5dtHj84RmmD3KNKbhoa89t9GQALnLK1/JMxebcWD84XQYAGxIysOJLQUEfxNU3Dzrwkg3IApAzVzhCUvdZXVBjkYylvisOoH6DZANI3QdYDOOqGy8cjG8pIq0jShpATqWus+92rt06ECv4ZIt1+0KvAKs3jcF5ctGKJN/9QQI0+/D0dfF7E0sDKFIxQO9rugubpJQUgHXiJZOUNr2LHmO2mroQmP4KQJ7p1Q4uu+JazLPuZbIzu2pHgP1VBVC2KoCyVQGUrQqgbFUAZev/BAjDEPP5HIQQ+L6/1/YLwGw2w2QywXK5xHq9BuX/1/fWKH4CB2TPVeIYN4wAAAAASUVORK5CYII=" SearchSteps="FuzzySelector, Image" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '로그인'" sap:VirtualizedContainerService.HintSize="388,157" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="5018d737-19e5-44aa-b617-6ca2b3a4b8c6" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://172.16.10.103:9000/" DesignTimeRectangle="178, 669, 308, 48" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'로그인'" FullSelectorArgument="&lt;webctrl id='LOGIN' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl id='LOGIN' tag='BUTTON' type='button' class='btn primary' aaname='                   로그인                  ' check:innerText='로그인' /&gt;" Guid="6c3bc853-eaad-4a9a-8561-c76b42b5d35a" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAATgAAAA0CAYAAAAeyiSlAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAPSSURBVHhe7drBaxRnGMfx/jUWsSCoNw+WVLBFBD0VAh5KSU8VCkFaLwVLg3sTS0lPHoQ91Uu6aaArUkOIjUhcJWRFWYmJAbNkSWsiTTZL5Om8mXnenZ282bymHnZevz/4gMzObDwsX3Z29wNhjLFAR+AYY8HOGbipBw357kpFznzxp3x6/jYA9CTTKNMq0yzXdgTuwvf35chnv8uBEyMAkAumWaZd2XUE7suLf8nhU6POJwCAXmbaZRqWng3cSPmFHDs95rwQAPLANMy0TGcDd25g3HkBAOSJaZnOBu6jkyXnyQCQJ6ZlOhs414kAkEc6AgcgODoCByA4OgIHIDg6AgcgODoCByA4OgIHIDg6AgcgODoCByA4OgIHIDg6AgcgODoCByA4OgKHHHks5bk1eTb3SkrXXI8DMR2Bg59rdVlcfyPNrlpSKbavuTphYrSHezX5PPV3+n6oyfhCyz7n6lJDipf08Xl5lrxeq7+2rwGydAQOfobmpeIK1LamNJPXUTo8NxeSg922UpdB/RuFRVncTI5vRoHbSv4dPXt5yJxD4OBHR+DwDrx9eAqVVnxBKnDD1Tf2WKE/OtY/LeWl+FDzSS06h8DBj47Awc/PDVlNXivd9n8CZ9/x1UzMMuctv4zOI3DwoyNw8GMD15LqnUUpld2GC45rHVyBs8c2X0nxq/jzuOrr+FBz5nF0DoGDHx2Bg59U4KZuTMvgkNvX39xyX5/Rfrc2J316fLAdtI69joK3/UUDgYMfHYGDH89b1PTt5e4mM5+tpR7rn5bhiRX7BUa1Mi+Xo3dz8eMEDn50BA5+BmelmLoVrawkL5ylRsctaqn40H19h6dSWY8vb0xMZx6blMJI/Fw7b3cJHPzoCBz2xfWFwNs4eym+pR2w787UrEwlt6mNu9n46Q9916R8PX0c6KQjcNjT5bv/pn7Mm9DfqG1ljkdWZ5ZtpHzXfkfWLXCAHx2Bw56cgetitVqXmzPpHwLvrf2OrB245kK98/Y3pfjLZMf/EUjTETj0mHbgum6ft8Z4P+gIHIDg6AgcgODoCByA4OgIHIDg6AgcgODoCByA4OgIHIDg6AgcgODoCByA4OgIHIDg6AgcgODobOA+/Nh9IgDkiWmZzgbu+Lk/nCcDQJ6Yluls4H78aUYOfVJyXgAAeWAaZlqms4FbXtmQw6dGnRcBQB6YhpmW6WzgzMbv1eVg32/OCwGgl5l2mYal1xE4s9rzNRn4dmr7g7qjp8cAoKeZVplmmXZltyNwuvWNLZl9+o88qv4NAD3JNMq0arftGjjGGMv3RP4Dmqxn9leHb30AAAAASUVORK5CYII=" InformativeScreenshot="ff98fdb2ba1be0f16f111303173c17a2.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='i-oneNGS' /&gt;" SearchSteps="FuzzySelector, Image" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '로그 아웃'" sap:VirtualizedContainerService.HintSize="388,157" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="5018d737-19e5-44aa-b617-6ca2b3a4b8c6" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://172.16.10.103:9000/" CvTextArea="20, 716, 48, 14" CvTextArgument="21 012" CvType="Text" DesignTimeRectangle="8, 675, 72, 72" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'로그 아웃'" FullSelectorArgument="&lt;webctrl aaname='로그 아웃' parentid='gnb' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='로그 아웃' parentid='gnb' tag='A' type='' class='' check:innerText='로그 아웃' /&gt;" Guid="f72210d6-eb9a-4b23-ace9-283bccd75a7c" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEwAAABMCAYAAADHl1ErAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAPCSURBVHhe7ZpZT1NBGIb9NV555YXxRiVGNIJIFCWICAKiRERBFsMiIikoIIviLtG/YIxxAVHUsgoiq/6U3o3nHTztcDhd3raWU/I1eZJ2Ns55znzftDPssF/Keu088FoIQyAQ0PzTJcKiIcJIRBiJCCMRYSQijESEkYgwEhFGIsJIRBiJCCMRYSQijESEkYgwEhFGIsJIRBiJCCMRYSQijESEkXhG2MGCEXW87EtYjpV+Vntz37v2TSWeEdbYNa8Gh9dU3/NVV3qerqrC6u+ufVOJp4QBtzovkTbCCqq+qeqbs2rXoTeu9akibYSdvDiuep+t6jZbKc2zwvblfdCfb/UvBvENLan7L3+rhs6tC13PCsMsKq2bUFWtM0Faehb0wlDZPL2hbyrxrDAnRdf8erXcSlkgbYRll4ypM1fka0WQaMK8gmeEIZEPvfoTFiT7svpJ176pxDPC0gURRiLCSEQYiQgjEWEkIoxEhJGIMBIRRrIthLX2LqiOwUWVkf8xWIYDE+xstPX9Ut2PV/SZQPvAoqpum1X7T4XasSRNGC7aeXABBobX9B5W0VW/bpeRP6Jvzq0tuPNoWe9MOMeHAOyH4TclwBg4aULdbes9+mFsfN6T806Lwg5tecOk3oxEf1wD5HUOhdqy/PcZhqdsCosE2t6zbhJHas66mvYfWn5J7YTKuzSu20Eg6pzCjhR9Uj1PVrQ0cwxQ75tX/S/W9BjOulhImjDckLmdbNP1cDlmYQgXN2GYMb4HS3pW4T3Kmi1ZmC2ZZ0c3CQOVTdNaMGYZQhHXAokou94xF/e5QNKE4aLvWjdwuvJr3Iew2A9zE4bQgxBzv8yUi78NERBTcWNqQ9/D1myzryPLCvVED1CSKsz5lFlsYdnnNwrDmBjbDDGzrfmwimv9+r2ZF+28Z5bFezCcNGFm0kcI4gKRK+wyhIFbP5NI0iELIYX8hNmKEAVI6NEeVjIepk3ShJmEC61IIDfV+eZ0LnSrx7kkxsQKBwEIQcwm1EUTgoUCu7W7s9661jMkLAw5AbnBzFlN3T/17EKit8sgDwkay7x5dObG5ZYZlVO2WXZm4aheSVGPMe3ySMKOFo/pmQnZJyriWxlNEhbmduAajguNUzEJA7nlISHRcBOGsMUCgFyFOoQvpEF2LAtQOBIW5gVC3/TXheH/MCAKZZCGUEQknKvxB7/Q4uE5x4mFbSEslYgwEhFGIsJIRBiJCCMRYSQijESEkYgwEhFGIsJIRBiJCCMRYSQijESEkYgwEhFGIsJI1oUF1F/HHS+ltuHNNQAAAABJRU5ErkJggg==" InformativeScreenshot="5024128d3d3bdffff6b8c975beb4e953.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='i-oneNGS' /&gt;" SearchSteps="FuzzySelector, Image, CV" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CvTextArea="20, 716, 48, 14" CvTextArgument="21 012" CvType="Text" DesignTimeRectangle="20, 716, 49, 14" ElementType="Text" FriendlyName="'21 012'" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset Position="BottomRight" X="-35" Y="-32" />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" IconBase64="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" InformativeScreenshot="723138d5db0d05951596b6d51c076bd4.jpg" Selector="&lt;html app='chrome.exe' title='i-oneNGS' /&gt;" Title="i-oneNGS" Url="https://172.16.10.103:9000/" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
