@@ -2,7 +2,7 @@
   "name": "TEST",
   "projectId": "4bb3df70-55b6-479c-b69a-9f26396d82e1",
   "description": "빈 프로세스",
-  "main": "i-oneNGS 기본.xaml",
+  "main": "테스트용\\i-oneNGS 기본.xaml",
   "dependencies": {
     "UiPath.Activities.RuntimeGovernance": "1.1.6",
     "UiPath.Excel.Activities": "2.20.3",
@@ -52,8 +52,8 @@
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
     {
-      "filePath": "i-oneNGS 기본.xaml",
-      "uniqueId": "04c42bec-d79e-4f54-ab79-7d811269ed21",
+      "filePath": "테스트용\\i-oneNGS 기본.xaml",
+      "uniqueId": "d88a0d05-951c-4068-b6f1-c7266e5a8552",
       "input": [],
       "output": []
     }
